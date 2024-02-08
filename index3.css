@@ -86,3 +86,7 @@ ul {
 label {
   font-size: 1.3rem;
 }
+
+.menu {
+  display: none;
+}
