@@ -29,7 +29,7 @@ li {
 }
 
 .logo {
-  font-size: 3rem;
+  font-size: 10rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: #fff;
@@ -44,11 +44,11 @@ header {
 ul {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 8rem;
 }
 
 header a {
-  font-size: 1.3rem;
+  font-size: 3rem;
   color: #fff;
 }
 
@@ -56,10 +56,11 @@ header a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: absolute;
-  top: 30%;
+
+  padding: 2rem 10rem;
   background-color: #fff;
-  margin: 0 10rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
   opacity: 0.9;
 }
 
@@ -161,61 +162,69 @@ header a {
 .caption span.border {
   color: #fff;
   padding: 18px;
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   letter-spacing: 10px;
 }
 
 .gorgeous {
   color: #fff;
-  font-size: 1.6rem;
-}
-
-.inquiry {
-  position: absolute;
-  left: 0;
-  top: 60%;
-  width: 100%;
-  text-align: center;
-  color: #000;
+  font-size: 1.9rem;
+  letter-spacing: 0.4rem;
 }
 
 .inquiry button {
+  position: absolute;
+  left: 45%;
+  top: 70%;
   border: none;
-  font-size: 1.5rem;
-  padding: 1.5rem;
+  font-size: 2rem;
+  padding: 3rem;
   border-radius: 1rem;
-}
 
+  text-align: center;
+  color: #000;
+}
 .capu {
   opacity: 80%;
   border-radius: 1rem;
   background-color: #777;
   padding: 0.5rem;
   position: absolute;
-  left: 25%;
+  left: 35%;
   top: 45%;
   color: #fff;
   font-size: 2rem;
   text-align: center;
 }
 .bio {
-  padding: 2rem 10rem;
+  padding-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
   background-color: #282e34;
   color: #fff;
   text-align: center;
   text-align: justify;
+  margin-bottom: 0;
 }
 .bio p {
-  font-size: 1.3rem;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 7rem;
+}
+
+.ourservice-h3 {
+  font-size: 4rem;
   text-align: center;
 }
 
-h3 {
+.bio h3 {
+  font-size: 4rem;
   text-align: center;
-  padding-bottom: 5rem;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 30px "Lato", sans-serif;
+}
+
+.lux h3 {
+  font-size: 4rem;
+  text-align: center;
 }
 
 .grid-view {
@@ -223,9 +232,11 @@ h3 {
   display: flex;
   gap: 1.5rem;
   justify-content: space-evenly;
+  padding-bottom: 5rem;
 }
 .grid-view p {
-  font-size: 1.3rem;
+  font-size: 1.9rem;
+  padding: 0 10rem;
 }
 .grid-view button {
   border: none;
@@ -273,10 +284,10 @@ form {
 }
 .form-p p {
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 .p-div {
-  padding-top: 3rem;
+  padding-top: 1rem;
 
   padding-left: 3rem;
   padding-right: 3rem;
@@ -304,11 +315,17 @@ form button {
 }
 
 label {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 24;
+  color: goldenrod;
+  font-size: 2rem;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 768px) {
   .bgimg-1,
   .bgimg-2,
   .bgimg-3 {
